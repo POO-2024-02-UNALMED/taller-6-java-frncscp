@@ -2,10 +2,8 @@ package vehiculos;
 
 public class Automovil extends Vehiculo{
 	private int puestos;
-
 	public static int cantidadAutomovil;
-	
-    public Automovil(String placa, String nombre , float precio , float peso, Fabricante fabricante , int puesto ) {
+	public Automovil(String placa, String nombre , float precio , float peso, Fabricante fabricante , int puesto ) {
 		super(placa, nombre , precio, peso,  fabricante);
 		this.puestos=puesto;
 		super.setTraccion("FWD");
